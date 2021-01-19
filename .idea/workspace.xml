@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63fdc305-1f5a-49b3-a003-8fb19ed37d3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/auth/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/auth/api.js" afterDir="false" />
     </list>
@@ -56,12 +55,24 @@
       <workItem from="1610724958958" duration="2750000" />
       <workItem from="1610887017283" duration="3882000" />
       <workItem from="1611073975496" duration="3866000" />
-      <workItem from="1611078336287" duration="386000" />
+      <workItem from="1611078336287" duration="897000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1611078760105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611078760105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2215" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610527264653">
@@ -70,10 +81,10 @@
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609827323166" />
     <state x="2215" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.316.1366.728/0.0.1920.1040@1920.316.1366.728" timestamp="1610527264653" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.607.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610473486213" />
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1611078620735">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1611078758600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/1920.607.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611078620735" />
+    <state x="585" y="1" key="CommitChangelistDialog2/1920.607.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611078758600" />
     <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1610887085727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,6 +191,10 @@
       <screen x="1920" y="316" width="1366" height="728" />
     </state>
     <state width="196" height="539" key="HiddenNamespacesPopup/1920.316.1366.728/0.0.1920.1040@1920.316.1366.728" timestamp="1610512431397" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1611078800460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.607.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611078800460" />
     <state x="2450" y="562" width="311" height="236" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610679527900">
       <screen x="1920" y="316" width="1366" height="728" />
     </state>
