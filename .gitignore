@@ -1,4 +1,6 @@
 node_modules
-tinasoft_modules
+*/package-lock.json
+package-lock.json
 .idea/
-idea/*
+.idea/*
+
