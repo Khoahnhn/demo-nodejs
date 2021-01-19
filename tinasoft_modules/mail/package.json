@@ -1,0 +1,21 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "Support send mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mail"
+  ],
+  "author": "tinasoft",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "nodemailer-express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.4.2"
+  }
+}
