@@ -1,2 +1,4 @@
 node_modules
 tinasoft_modules
+.idea/
+idea/*
