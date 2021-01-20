@@ -13,6 +13,7 @@ app.options('*', cors())
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use('/static', express.static('static'));
 
 /** Router */
 const routes = require('./src/routes');
