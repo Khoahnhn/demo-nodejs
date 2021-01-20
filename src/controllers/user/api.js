@@ -4,6 +4,9 @@ const response = require('../base/response');
 const service = require('./service');
 const {User} = require('./models/user');
 const formidable = require('formidable');
+const fs = require('fs');
+const typeImage = ['image/png', 'image/jpeg'];
+const {network} = require('../../../config/config');
 
 async function listAllUser(req, res){
     try{
