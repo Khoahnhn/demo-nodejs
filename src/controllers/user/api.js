@@ -41,10 +41,21 @@ async function changeAvatar(req, res){
     try{
         let form = new formidable.IncomingForm();
         form.uploadDir = "static/"
-        form.parse(req, (err, fields, files) => {
-            let oldPath
+        form.parse(req, async (err, fields, files) => {
+            let newPath;
+            if(files.avatar !== undefined){
+                if(!typeImage.includes(files.avatar.type)) return response.badData(res, "Type dosen't support!!");
+                let oldPath = files.avatar.path;
+                newPath = `${form.uploadDir}avatar/${Date.now()}-${files.avatar.name}`;
+                fs.renameSync(oldPath, newPath);
+            }
+            let photo = `http://${network.hostname}:${network.port}/${newPath}`;
+            if(newPath === undefined){
+                photo = undefined;
+            }
+            let user = await User.findByIdAndUpdate(req.user._id, {avatar: photo}, {new: true});
+            return response.ok(res, user);
         })
-        return response.ok(res, 'ok');
     }catch (error){
         log.error(error);
         return response.internal(res, error);
